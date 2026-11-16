@@ -15,3 +15,8 @@ FROM jobs
 WHERE priority_description = 'Emergency'
 ORDER BY created_at DESC
 LIMIT 3;
+
+-- bonus: count how many jobs each account has 
+SELECT jobs.account_id, COUNT(*) AS total_jobs
+FROM jobs
+GROUP BY jobs.account_id;
