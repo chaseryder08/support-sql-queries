@@ -1,3 +1,8 @@
+-- =============================================================
+-- 02: Joins
+-- INNER JOIN and LEFT JOIN
+-- =============================================================
+
 -- Show Brightline Home Services' jobs
 SELECT jobs.id, accounts.name, jobs.status
 FROM jobs

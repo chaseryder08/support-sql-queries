@@ -1,3 +1,8 @@
+-- =============================================================
+-- 03: Multi-table queries
+-- Joining jobs, accounts, organizations, and billing_documents
+-- =============================================================
+
 -- New jobs and their assigned organization
 SELECT jobs.id, jobs.status, organizations.name
 FROM jobs
